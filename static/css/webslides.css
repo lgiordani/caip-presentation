@@ -490,8 +490,8 @@ code {
   font-family: 'Cousine', monospace; }
 
 pre {
-  font-size: 1.6rem;
-  line-height: 2.4rem;
+  font-size: 2.6rem;
+  line-height: 3.4rem;
   overflow: auto;
   padding: 2.4rem;
   text-align: left;
@@ -865,6 +865,14 @@ h1 {
     h1 {
       font-size: 5.6rem;
       line-height: 7.2rem; } }
+
+section.bigh h1 {
+  font-size: 6rem;
+  line-height: 7.6rem; }
+  @media (min-width: 768px) {
+    section.bigh h1 {
+      font-size: 7.6rem;
+      line-height: 9.2rem; } }
 
 h1 span {
   font-style: italic; }
@@ -1421,6 +1429,10 @@ Vertically and horizontally centered
 section * {
   -webkit-animation: fadeIn .6s ease-in-out;
           animation: fadeIn .6s ease-in-out; }
+
+section.pop * {
+  -webkit-animation: fadeIn 0s ease-in-out;
+          animation: fadeIn 0s ease-in-out; }
 
 section .background,
 section .light,

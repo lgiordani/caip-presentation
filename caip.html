@@ -35,31 +35,6 @@
 
   </head>
   <body>
-    <header role="banner">
-      <nav role="navigation">
-        <p class="logo"><a href="index.html" title="WebSlides">WebSlides</a></p>
-        <ul>
-          <li class="github">
-            <a rel="external" href="https://github.com/webslides/webslides" title="Github">
-              <svg class="fa-github">
-                <use xlink:href="#fa-github"></use>
-              </svg>
-              <em>WebSlides</em>
-            </a>
-          </li>
-          <li class="twitter">
-            <a rel="external" href="https://twitter.com/webslides" title="Twitter">
-              <svg class="fa-twitter">
-                <use xlink:href="#fa-twitter"></use>
-              </svg>
-              <em>@WebSlides</em>
-            </a>
-          </li>
-          <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> -->
-        </ul>
-      </nav>
-    </header>
-
     <main role="main">
       <article id="webslides">
         <!-- Quick Guide
@@ -68,17 +43,53 @@
           - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
         -->
 
-        <section>
+        <section class="bigh">
          <!--  -->
          <span class="background" style="background-image:url('images/abstract-architecture-texture-roof-building-new-york-563207-pxhere.com.det.jpg')"></span>
           <!--.wrap = container (width: 90%) -->
           <div class="wrap aligncenter">
             <h1><strong>Clean Architectures in Python</strong></h1>
-            <p class="text-intro">A tale of durability, utility, and beauty</p>
+            <h2>A tale of durability, utility, and beauty</h2>
           </div>
           <!-- .end .wrap -->
         </section>
-        <section class="bg-gradient-white">
+        <section>
+          <div class="wrap">
+            <div class="card-50 bg-white">
+              <figure>
+                <img src="images/cat-pet-mammal-small-to-medium-sized-cats-whiskers-cat-like-mammal-1428475-pxhere.com.det.jpg">
+                <figcaption>
+                  <a href="https://unsplash.com/@hollowaykryan" title="Victoriano Izquierdo">
+                    "Who wrote this code?"
+                  </a>
+                </figcaption>
+              </figure>
+              <!-- end figure-->
+              <div class="flex-content">
+                <h2>
+                  Leonardo Giordani
+                </h2>
+                <p>Software developer and blogger</p>
+                <ul class="description">
+                  <li><h4>I publish my technical investigations at <strong>www.thedigitalcatonline.com</strong></h4></li>
+                  <li><h4>Author of <strong>Clean Architectures in Python</strong></h4></li>
+                  <li>
+                    <h4>
+                      <svg class="fa-twitter-square">
+                        <use xlink:href="#fa-twitter-square"></use>
+                      </svg>
+                      <b>@tw_lgiordani @thedigicat</b>
+                    </h4>
+                  </li>
+                </ul>
+              </div>
+              <!-- end .flex-content-->
+            </div>
+            <!-- .end .card50 -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-gradient-white bigh">
          <!--  -->
          <span class="background dark" style="background-image:url('images/architecture-structure-sky-building-palace-monument-543643-pxhere.com.det.jpg')"></span>
           <!--.wrap = container (width: 90%) -->
@@ -113,7 +124,7 @@
         <section class="bg-ligth slide-top">
           <span class="background" style="background-image:url('images/architecture-house-building-barn-home-hut-1198643-pxhere.com.det.jpg')"></span>
           <div class="wrap alignleft">
-            <h1 class="text-landing">Do we need architecture?</h1>
+            <h1 class="text-landing">Do we <b>need</b> architecture?</h1>
           </div>
           <!-- .end .wrap -->
         </section>
@@ -121,16 +132,28 @@
           <span class="background" style="background-image:url('images/hand-read-reading-line-finger-paper-1331919-pxhere.com.det.jpg')"></span>
           <div class="card-50">
             <div class="flex-content">
-              <h2><i>Object Oriented Software Engineering: A Use-Case Driven Approach</i></h2>
-              <p>Ivar Jacobson (1992)</p>
-              <h2><i>Design Patterns</i></h2>
-              <p>E. Gamma, R. Helm, R. Johnson, J. Vlissides (1994)</p>
-              <h2><i>Design Principles and Design Patterns</i></h2>
-              <p>Robert Martin (2000)</p>
-              <h2><i>Domain-Driven Design: Tackling Complexity in the Heart of Software</i></h2>
-              <p>Eric Evans (2003)</p>
-              <h2><i>Enterprise Integration Pattern: Designing, Building, and Deploying Messaging Solutions</i></h2>
-              <p>H. Hohpe, B. Woolf (2003)</p>
+              <ul class="description">
+                <li>
+                    <h2><b>Object Oriented Software Engineering: A Use-Case Driven Approach</b></h2>
+                    <h4>Ivar Jacobson (1992)</h4>
+                </li>
+                <li>
+                    <h2><b>Design Patterns</b></h2>
+                    <h4>E. Gamma, R. Helm, R. Johnson, J. Vlissides (1994)</h4>
+                </li>
+                <li>
+                  <h2><b>Design Principles and Design Patterns</b></h2>
+                  <h4>Robert Martin (2000)</h4>
+                </li>
+                <li>
+                  <h2><b>Domain-Driven Design: Tackling Complexity in the Heart of Software</b></h2>
+                  <h4>Eric Evans (2003)</h4>
+                </li>
+                <li>
+                  <h2><b>Enterprise Integration Pattern: Designing, Building, and Deploying Messaging Solutions</b></h2>
+                  <h4>H. Hohpe, B. Woolf (2003)</h4>
+                </li>
+              </ul>
             </div>
           </div>
           <!-- .end .wrap -->
@@ -142,9 +165,9 @@
             </figure>
             <!-- end figure-->
             <div class="flex-content">
-              <h2>
-                What is the meaning of clean?
-              </h2>
+              <h1>
+                What is the meaning of <b>clean</b>?
+              </h1>
             </div>
             <!-- end .flex-content-->
           </div>
@@ -153,9 +176,9 @@
         <section class="fullscreen">
           <div class="card-50">
             <div class="flex-content">
-              <h2>
+              <h1>
                 You know <b>where</b> things are, <b>why</b> components are there, <b>what</b> something is
-              </h2>
+              </h1>
             </div>
             <!-- end .flex-content-->
             <figure>
@@ -164,6 +187,431 @@
             <!-- end figure-->
           </div>
           <!-- end .card-50-->
+        </section>
+        <section class="fullscreen">
+          <div class="card-50">
+            <div class="flex-content">
+              <h2>
+                The Clean Architecture
+              </h2>
+              <h2>
+                A <b>layered</b> approach for a more civilized age
+              </h2>
+            </div>
+            <!-- end .flex-content-->
+            <figure>
+              <img src="images/circles00.png">
+            </figure>
+            <!-- end figure-->
+          </div>
+          <!-- end .card-50-->
+        </section>
+        <section class="fullscreen pop">
+          <div class="card-50">
+            <div class="flex-content">
+              <h2>
+                The golden rule
+              </h2>
+              <h2>
+                Talk inward with <b>simple structures</b>,
+              </h2>
+              <h2>
+                  ...
+              </h2>
+            </div>
+            <!-- end .flex-content-->
+            <figure>
+              <img src="images/circles01.png">
+            </figure>
+            <!-- end figure-->
+          </div>
+          <!-- end .card-50-->
+        </section>
+        <section class="fullscreen pop">
+          <div class="card-50">
+            <div class="flex-content">
+              <h2>
+                The golden rule
+              </h2>
+              <h2>
+                Talk inward with <b>simple structures</b>,
+              </h2>
+              <h2>
+                talk outwards through <b>interfaces</b>.
+              </h2>
+            </div>
+            <!-- end .flex-content-->
+            <figure>
+              <img src="images/circles02.png">
+            </figure>
+            <!-- end figure-->
+          </div>
+          <!-- end .card-50-->
+        </section>
+        <section class="fullscreen pop">
+          <div class="card-50">
+            <div class="flex-content">
+              <h2>
+                <b>Use case</b>: retrieve a list of objects
+              </h2>
+
+<pre style="color:#000000;background:#ffffff;">use_case <span style="color:#808030; ">=</span> uc<span style="color:#808030; ">.</span>RoomListUseCase<span style="color:#808030; ">(</span><span style="color:#808030; ">)</span>
+use_case<span style="color:#808030; ">.</span>execute<span style="color:#808030; ">(</span><span style="color:#808030; ">)</span>
+</pre>
+
+            </div>
+            <!-- end .flex-content-->
+            <figure>
+              <img src="images/circles03.png">
+            </figure>
+            <!-- end figure-->
+          </div>
+          <!-- end .card-50-->
+        </section>
+        <section class="fullscreen pop">
+          <div class="card-50">
+            <div class="flex-content">
+              <h2>
+                In 2019 we are probably discussing a <b>web application</b>
+              </h2>
+
+<pre style="color:#000000;background:#ffffff;"><span style="color:#808030; ">@</span>blueprint<span style="color:#808030; ">.</span>route<span style="color:#808030; ">(</span><span style="color:#0000e6; ">'/rooms'</span><span style="color:#808030; ">,</span> methods<span style="color:#808030; ">=</span><span style="color:#808030; ">[</span><span style="color:#0000e6; ">'GET'</span><span style="color:#808030; ">]</span><span style="color:#808030; ">)</span>
+<span style="color:#800000; font-weight:bold; ">def</span> room<span style="color:#808030; ">(</span><span style="color:#808030; ">)</span><span style="color:#808030; ">:</span>
+</pre>
+
+            </div>
+            <!-- end .flex-content-->
+            <figure>
+              <img src="images/circles04.png">
+            </figure>
+            <!-- end figure-->
+          </div>
+          <!-- end .card-50-->
+        </section>
+        <section class="fullscreen pop">
+          <div class="card-50">
+            <div class="flex-content">
+              <h2>
+                Incoming HTTP requests become a <b>call</b> and some <b>arguments</b>
+              </h2>
+
+<pre style="color:#000000;background:#ffffff;"><span style="color:#808030; ">@</span>blueprint<span style="color:#808030; ">.</span>route<span style="color:#808030; ">(</span><span style="color:#0000e6; ">'/rooms'</span><span style="color:#808030; ">,</span> methods<span style="color:#808030; ">=</span><span style="color:#808030; ">[</span><span style="color:#0000e6; ">'GET'</span><span style="color:#808030; ">]</span><span style="color:#808030; ">)</span>
+<span style="color:#800000; font-weight:bold; ">def</span> room<span style="color:#808030; ">(</span><span style="color:#808030; ">)</span><span style="color:#808030; ">:</span>
+    use_case <span style="color:#808030; ">=</span> uc<span style="color:#808030; ">.</span>RoomListUseCase<span style="color:#808030; ">(</span><span style="color:#808030; ">)</span>
+    use_case<span style="color:#808030; ">.</span>execute<span style="color:#808030; ">(</span>request<span style="color:#808030; ">.</span>args<span style="color:#808030; ">)</span>
+</pre>
+
+            </div>
+            <!-- end .flex-content-->
+            <figure>
+              <img src="images/circles05.png">
+            </figure>
+            <!-- end figure-->
+          </div>
+          <!-- end .card-50-->
+        </section>
+        <section class="fullscreen pop">
+          <div class="card-50">
+            <div class="flex-content">
+              <h2>
+                The use case extracts data from a <b>repository</b>
+              </h2>
+            </div>
+            <!-- end .flex-content-->
+            <figure>
+              <img src="images/circles06.png">
+            </figure>
+            <!-- end figure-->
+          </div>
+          <!-- end .card-50-->
+        </section>
+        <section class="fullscreen pop">
+          <div class="card-50">
+            <div class="flex-content">
+              <h2>
+                And the repository can be accessed through an <b>interface</b>
+              </h2>
+            </div>
+            <!-- end .flex-content-->
+            <figure>
+              <img src="images/circles07.png">
+            </figure>
+            <!-- end figure-->
+          </div>
+          <!-- end .card-50-->
+        </section>
+        <section class="fullscreen pop">
+          <div class="card-50">
+            <div class="flex-content">
+              <h2>
+                The database returns data in a <b>specific language</b> that is translated by the interface into <b>simple structures</b> and <b>entities</b>
+              </h2>
+
+<pre style="color:#000000;background:#ffffff;"><span style="color:#800000; font-weight:bold; ">class</span> PostgresRepo<span style="color:#808030; ">:</span>
+    <span style="color:#800000; font-weight:bold; ">def</span> <span style="color:#074726; ">__init__</span><span style="color:#808030; ">(</span>self<span style="color:#808030; ">,</span> CONNECTION_STRING<span style="color:#808030; ">)</span><span style="color:#808030; ">:</span>
+        self<span style="color:#808030; ">.</span>engine <span style="color:#808030; ">=</span> create_engine<span style="color:#808030; ">(</span>CONNECTION_STRING<span style="color:#808030; ">)</span>
+        Base<span style="color:#808030; ">.</span>metadata<span style="color:#808030; ">.</span>bind <span style="color:#808030; ">=</span> self<span style="color:#808030; ">.</span>engine
+
+    <span style="color:#800000; font-weight:bold; ">def</span> <span style="color:#400000; ">list</span><span style="color:#808030; ">(</span>self<span style="color:#808030; ">,</span> filters<span style="color:#808030; ">)</span><span style="color:#808030; ">:</span>
+        DBSession <span style="color:#808030; ">=</span> sessionmaker<span style="color:#808030; ">(</span>bind<span style="color:#808030; ">=</span>self<span style="color:#808030; ">.</span>engine<span style="color:#808030; ">)</span>
+        session <span style="color:#808030; ">=</span> DBSession<span style="color:#808030; ">(</span><span style="color:#808030; ">)</span>
+
+        query <span style="color:#808030; ">=</span> <span style="color:#808030; ">.</span><span style="color:#808030; ">.</span><span style="color:#808030; ">.</span>
+
+        <span style="color:#800000; font-weight:bold; ">return</span> self<span style="color:#808030; ">.</span>_create_room_objects<span style="color:#808030; ">(</span>query<span style="color:#808030; ">.</span><span style="color:#400000; ">all</span><span style="color:#808030; ">(</span><span style="color:#808030; ">)</span><span style="color:#808030; ">)</span>
+</pre>
+            </div>
+            <!-- end .flex-content-->
+            <figure>
+              <img src="images/circles08.png">
+            </figure>
+            <!-- end figure-->
+          </div>
+          <!-- end .card-50-->
+        </section>
+        <section class="fullscreen pop">
+          <div class="card-50">
+            <div class="flex-content">
+              <h2>
+                The use case receives the <b>repository interface</b> as an argument of the call
+              </h2>
+
+<pre style="color:#000000;background:#ffffff;"><span style="color:#808030; ">@</span>blueprint<span style="color:#808030; ">.</span>route<span style="color:#808030; ">(</span><span style="color:#0000e6; ">'/rooms'</span><span style="color:#808030; ">,</span> methods<span style="color:#808030; ">=</span><span style="color:#808030; ">[</span><span style="color:#0000e6; ">'GET'</span><span style="color:#808030; ">]</span><span style="color:#808030; ">)</span>
+<span style="color:#800000; font-weight:bold; ">def</span> room<span style="color:#808030; ">(</span><span style="color:#808030; ">)</span><span style="color:#808030; ">:</span>
+    repo <span style="color:#808030; ">=</span> PostgresRepo<span style="color:#808030; ">(</span>CONNECTION_STRING<span style="color:#808030; ">)</span>
+    use_case <span style="color:#808030; ">=</span> uc<span style="color:#808030; ">.</span>RoomListUseCase<span style="color:#808030; ">(</span>repo<span style="color:#808030; ">)</span>
+    use_case<span style="color:#808030; ">.</span>execute<span style="color:#808030; ">(</span>request<span style="color:#808030; ">.</span>args<span style="color:#808030; ">)</span>
+</pre>
+
+            </div>
+            <!-- end .flex-content-->
+            <figure>
+              <img src="images/circles09.png">
+            </figure>
+            <!-- end figure-->
+          </div>
+          <!-- end .card-50-->
+        </section>
+        <section class="fullscreen pop">
+          <div class="card-50">
+            <div class="flex-content">
+              <h2>
+                The use case calls the repository interface and applies the <b>business logic</b>
+              </h2>
+
+<pre style="color:#000000;background:#ffffff;"><span style="color:#800000; font-weight:bold; ">class</span> RoomListUseCase<span style="color:#808030; ">:</span>
+
+    <span style="color:#800000; font-weight:bold; ">def</span> <span style="color:#074726; ">__init__</span><span style="color:#808030; ">(</span>self<span style="color:#808030; ">,</span> repo<span style="color:#808030; ">)</span><span style="color:#808030; ">:</span>
+        self<span style="color:#808030; ">.</span>repo <span style="color:#808030; ">=</span> repo
+
+    <span style="color:#800000; font-weight:bold; ">def</span> execute<span style="color:#808030; ">(</span>self<span style="color:#808030; ">,</span> params<span style="color:#808030; ">)</span><span style="color:#808030; ">:</span>
+
+        <span style="color:#696969; "># BUSINESS LOGIC HERE</span>
+
+        result <span style="color:#808030; ">=</span> self<span style="color:#808030; ">.</span>repo<span style="color:#808030; ">.</span><span style="color:#400000; ">list</span><span style="color:#808030; ">(</span><span style="color:#808030; ">)</span>
+
+        <span style="color:#696969; "># BUSINESS LOGIC HERE</span>
+
+        <span style="color:#800000; font-weight:bold; ">return</span> result
+</pre>
+
+            </div>
+            <!-- end .flex-content-->
+            <figure>
+              <img src="images/circles10.png">
+            </figure>
+            <!-- end figure-->
+          </div>
+          <!-- end .card-50-->
+        </section>
+        <section class="fullscreen pop">
+          <div class="card-50">
+            <div class="flex-content">
+              <h2>
+                The use case returns the <b>result of the business logic</b> as a result of its execution
+              </h2>
+
+<pre style="color:#000000;background:#ffffff;"><span style="color:#808030; ">@</span>blueprint<span style="color:#808030; ">.</span>route<span style="color:#808030; ">(</span><span style="color:#0000e6; ">'/rooms'</span><span style="color:#808030; ">,</span> methods<span style="color:#808030; ">=</span><span style="color:#808030; ">[</span><span style="color:#0000e6; ">'GET'</span><span style="color:#808030; ">]</span><span style="color:#808030; ">)</span>
+<span style="color:#800000; font-weight:bold; ">def</span> room<span style="color:#808030; ">(</span><span style="color:#808030; ">)</span><span style="color:#808030; ">:</span>
+    repo <span style="color:#808030; ">=</span> PostgresRepo<span style="color:#808030; ">(</span>CONNECTION_STRING<span style="color:#808030; ">)</span>
+    use_case <span style="color:#808030; ">=</span> uc<span style="color:#808030; ">.</span>RoomListUseCase<span style="color:#808030; ">(</span>repo<span style="color:#808030; ">)</span>
+    result <span style="color:#808030; ">=</span> use_case<span style="color:#808030; ">.</span>execute<span style="color:#808030; ">(</span>request<span style="color:#808030; ">.</span>args<span style="color:#808030; ">)</span>
+</pre>
+
+            </div>
+            <!-- end .flex-content-->
+            <figure>
+              <img src="images/circles11.png">
+            </figure>
+            <!-- end figure-->
+          </div>
+          <!-- end .card-50-->
+        </section>
+        <section class="fullscreen pop">
+          <div class="card-50">
+            <div class="flex-content">
+              <h2>
+                The web framework converts entities and simple structures in <b>HTTP responses</b>
+              </h2>
+
+<pre style="color:#000000;background:#ffffff;"><span style="color:#808030; ">@</span>blueprint<span style="color:#808030; ">.</span>route<span style="color:#808030; ">(</span><span style="color:#0000e6; ">'/rooms'</span><span style="color:#808030; ">,</span> methods<span style="color:#808030; ">=</span><span style="color:#808030; ">[</span><span style="color:#0000e6; ">'GET'</span><span style="color:#808030; ">]</span><span style="color:#808030; ">)</span>
+<span style="color:#800000; font-weight:bold; ">def</span> room<span style="color:#808030; ">(</span><span style="color:#808030; ">)</span><span style="color:#808030; ">:</span>
+    repo <span style="color:#808030; ">=</span> PostgresRepo<span style="color:#808030; ">(</span>CONNECTION_STRING<span style="color:#808030; ">)</span>
+    use_case <span style="color:#808030; ">=</span> uc<span style="color:#808030; ">.</span>RoomListUseCase<span style="color:#808030; ">(</span>repo<span style="color:#808030; ">)</span>
+    result <span style="color:#808030; ">=</span> use_case<span style="color:#808030; ">.</span>execute<span style="color:#808030; ">(</span>request<span style="color:#808030; ">.</span>args<span style="color:#808030; ">)</span>
+
+    <span style="color:#800000; font-weight:bold; ">return</span> Response<span style="color:#808030; ">(</span>json<span style="color:#808030; ">.</span>dumps<span style="color:#808030; ">(</span>result<span style="color:#808030; ">)</span><span style="color:#808030; ">,</span>
+                    mimetype<span style="color:#808030; ">=</span><span style="color:#0000e6; ">'application/json'</span><span style="color:#808030; ">,</span>
+                    status<span style="color:#808030; ">=</span><span style="color:#008c00; ">200</span><span style="color:#808030; ">)</span>
+</pre>
+
+            </div>
+            <!-- end .flex-content-->
+            <figure>
+              <img src="images/circles12.png">
+            </figure>
+            <!-- end figure-->
+          </div>
+          <!-- end .card-50-->
+        </section>
+        <section class="fullscreen pop">
+          <div class="card-50">
+            <div class="flex-content">
+              <h2>
+                Testing the <b>use case</b>
+              </h2>
+
+<pre style="color:#000000;background:#ffffff;"><span style="color:#800000; font-weight:bold; ">class</span> RoomListUseCase<span style="color:#808030; ">:</span>
+
+    <span style="color:#800000; font-weight:bold; ">def</span> <span style="color:#074726; ">__init__</span><span style="color:#808030; ">(</span>self<span style="color:#808030; ">,</span> repo<span style="color:#808030; ">)</span><span style="color:#808030; ">:</span>
+        self<span style="color:#808030; ">.</span>repo <span style="color:#808030; ">=</span> repo
+
+    <span style="color:#800000; font-weight:bold; ">def</span> execute<span style="color:#808030; ">(</span>self<span style="color:#808030; ">,</span> params<span style="color:#808030; ">)</span><span style="color:#808030; ">:</span>
+
+        <span style="color:#696969; "># BUSINESS LOGIC HERE</span>
+
+        result <span style="color:#808030; ">=</span> self<span style="color:#808030; ">.</span>repo<span style="color:#808030; ">.</span><span style="color:#400000; ">list</span><span style="color:#808030; ">(</span><span style="color:#808030; ">)</span>
+
+        <span style="color:#696969; "># BUSINESS LOGIC HERE</span>
+
+        <span style="color:#800000; font-weight:bold; ">return</span> result
+</pre>
+
+            </div>
+            <!-- end .flex-content-->
+            <figure>
+              <img src="images/circles13.png">
+            </figure>
+            <!-- end figure-->
+          </div>
+          <!-- end .card-50-->
+        </section>
+        <section class="fullscreen pop">
+          <div class="card-50">
+            <div class="flex-content">
+              <h2>
+                Testing the <b>HTTP endpoint</b>
+              </h2>
+
+<pre style="color:#000000;background:#ffffff;"><span style="color:#808030; ">@</span>blueprint<span style="color:#808030; ">.</span>route<span style="color:#808030; ">(</span><span style="color:#0000e6; ">'/rooms'</span><span style="color:#808030; ">,</span> methods<span style="color:#808030; ">=</span><span style="color:#808030; ">[</span><span style="color:#0000e6; ">'GET'</span><span style="color:#808030; ">]</span><span style="color:#808030; ">)</span>
+<span style="color:#800000; font-weight:bold; ">def</span> room<span style="color:#808030; ">(</span><span style="color:#808030; ">)</span><span style="color:#808030; ">:</span>
+    repo <span style="color:#808030; ">=</span> PostgresRepo<span style="color:#808030; ">(</span>CONNECTION_STRING<span style="color:#808030; ">)</span>
+    use_case <span style="color:#808030; ">=</span> uc<span style="color:#808030; ">.</span>RoomListUseCase<span style="color:#808030; ">(</span>repo<span style="color:#808030; ">)</span>
+    result <span style="color:#808030; ">=</span> use_case<span style="color:#808030; ">.</span>execute<span style="color:#808030; ">(</span>request<span style="color:#808030; ">.</span>args<span style="color:#808030; ">)</span>
+
+    <span style="color:#800000; font-weight:bold; ">return</span> Response<span style="color:#808030; ">(</span>json<span style="color:#808030; ">.</span>dumps<span style="color:#808030; ">(</span>result<span style="color:#808030; ">)</span><span style="color:#808030; ">,</span>
+                    mimetype<span style="color:#808030; ">=</span><span style="color:#0000e6; ">'application/json'</span><span style="color:#808030; ">,</span>
+                    status<span style="color:#808030; ">=</span><span style="color:#008c00; ">200</span><span style="color:#808030; ">)</span>
+</pre>
+
+            </div>
+            <!-- end .flex-content-->
+            <figure>
+              <img src="images/circles14.png">
+            </figure>
+            <!-- end figure-->
+          </div>
+          <!-- end .card-50-->
+        </section>
+        <section class="fullscreen pop">
+          <div class="card-50">
+            <div class="flex-content">
+              <h2>
+                Testing the <b>repository interface</b>: integration test
+              </h2>
+            </div>
+            <!-- end .flex-content-->
+            <figure>
+              <img src="images/circles15.png">
+            </figure>
+            <!-- end figure-->
+          </div>
+          <!-- end .card-50-->
+        </section>
+        <section class="bg-gradient-white bigh">
+         <!--  -->
+         <span class="background dark" style="background-image:url('images/architecture-skyline-building-skyscraper-cityscape-downtown-1408113-pxhere.com.det.jpg')"></span>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h1>Is this the <b>definitive</b> architecture?</h1>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-gradient-white">
+         <!--  -->
+         <span class="background dark" style="background-image:url('images/Modern_times.jpg')"></span>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h1>Is it possible to <b>migrate</b> an existing sytem?</h1>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <div class="wrap">
+            <div class="grid vertical-align">
+              <div class="column">
+                <figure><img class="aligncenter" src="images/paap_cover.png"></figure>
+              </div>
+              <div class="column">
+                <h3>Harry Percival, Bob Gregory</h3>
+                <h1>
+                  <b>Pythonic Application Architecture Patterns</b>
+                </h1>
+                <p class="text-intro">(working title)</p>
+                <h2>https://github.com/python-leap/book</h2>
+              </div>
+            </div>
+            <!-- end .grid-->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <div class="wrap">
+            <div class="grid vertical-align">
+              <div class="column">
+                <figure><img class="aligncenter" src="images/pycabook_cover.png"></figure>
+              </div>
+              <div class="column">
+                <h1>
+                  <b>Clean Architectures in Python</b>
+                </h1>
+                <p class="text-intro">A practical approach to better software design</p>
+                <h2>bit.ly/getpycabook</h2>
+              </div>
+            </div>
+            <!-- end .grid-->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bigh">
+         <!--  -->
+         <span class="background" style="background-image:url('images/abstract-architecture-texture-roof-building-new-york-563207-pxhere.com.det.jpg')"></span>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h1><strong>Thank you!</strong></h1>
+            <h2>@tw_lgiordani - @thedigicat - bit.ly/getpycabook</h2>
+          </div>
+          <!-- .end .wrap -->
         </section>
       </article>
       <!-- end article -->
